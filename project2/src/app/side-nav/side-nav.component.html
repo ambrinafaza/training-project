@@ -1,0 +1,48 @@
+<div class="row">
+    <div class="col-md-3 row side">
+        <b>
+        <img src="https://res.cloudinary.com/dyyjph6kx/image/upload/f_auto/webui/eng/xoxoday-logo.svg" id="logo">
+
+        <div class="col-sm-12 top" style="margin-top:25%">
+            <a href="#">Groups</a>
+        </div>
+        <div  class="col-sm-12 top" style="text-align: center">
+            <a ><img style="width: 10%" class="rounded" src="../../assets/images/profile.jpeg">Aaa Townhall</a>
+        </div>
+        <div class="col-sm-12 top" id='accordion'>
+            <a data-toggle="collapse" href="#accordi">Awards</a>
+        </div>
+       <a routerLink="/side-nav/admin"><div id="accordi" class="collapse" data-parent="#accordion"><img  style="margin-left:76px;" src="https://aaaa.xoxoday.com/static/images/menu-icon/given-award.svg">Give an Award</div></a>
+       <a routerLink="/side-nav/manage-budgets"><div id="accordi" class="collapse" data-parent="#accordion"><img  style="margin-left:76px;" src="https://aaaa.xoxoday.com/static/images/menu-icon/given-award.svg">Manage Budgets</div></a>
+      <a routerLink="/side-nav/award-list"><div id="accordi" class="collapse" data-parent="#accordion"><img  style="margin-left:76px;" src="https://aaaa.xoxoday.com/static/images/menu-icon/award-list.svg">Award List</div></a>
+        <div id="accordi" class="collapse" data-parent="#accordion"><img  style="margin-left:76px;" src="https://aaaa.xoxoday.com/static/images/menu-icon/automated-gifts.svg">Automated Gifts</div>
+        <div class="col-sm-12 top">
+            <a href="#">Redeem Points</a>
+        </div>
+
+        <div class="col-sm-12 top" id='accordion'>
+            <a data-toggle="collapse" href="#accord">Admin</a>
+        </div>
+        <div id="accord" class="collapse" data-parent="#accordion"><img style="margin-left:76px" src="https://aaaa.xoxoday.com/static/images/menu-icon/business-information.svg">Business Information</div>
+        <div id="accord" class="collapse" data-parent="#accordion"><img style="margin-left:76px"src="https://aaaa.xoxoday.com/static/images/menu-icon/platform-settings.svg">Platform settings</div>
+        <div id="accord" class="collapse" data-parent="#accordion"><img style="margin-left:76px"src="https://aaaa.xoxoday.com/static/images/menu-icon/billing-information.svg">Billings Informations</div>
+        <div id="accord" class="collapse" data-parent="#accordion"><img style="margin-left:76px"src="https://aaaa.xoxoday.com/static/images/menu-icon/user-management.svg">User Managements</div>
+        <div id="accord" class="collapse" data-parent="#accordion"><img style="margin-left:76px"src="https://aaaa.xoxoday.com/static/images/menu-icon/points-administration.svg">Points Administration</div>
+        <div class="col-sm-12 top">
+            <a href="#">Leaderboard</a>
+        </div>
+        
+        <div class="col-sm-12 top">
+            <a href="#">Reports</a>
+        </div>
+        
+        <div class="col-sm-12 top">
+            <a href="#">Help Center</a>
+        </div>
+        </b>
+    </div>
+    <div class="col-md-9 cont" style="height: 100%; display: block;">
+        
+        <router-outlet></router-outlet>
+    </div>
+</div>
